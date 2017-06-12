@@ -91,13 +91,13 @@ body {
     margin: 0;
 }
 .blockicon {
-    background-image: url("http://www.ecamp.co.nz/wp-content/uploads/2015/12/caneca-super-mario-tijolos-img1-9a43d21c0b7132f64314747755372388-1024-1024.png");
+    background-image: url("brick.png");
     background-size:cover;
     font-size: 1.3em;
     border: none;
 }
 .blockicon:active {
-    background-image: url("http://www.ecamp.co.nz/wp-content/uploads/2015/12/caneca-super-mario-tijolos-img1-9a43d21c0b7132f64314747755372388-1024-1024.png");
+    background-image: url("brick.png");
 }
 .grandtotalboxtext {
     display: block;
