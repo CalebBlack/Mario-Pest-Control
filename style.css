@@ -9,7 +9,7 @@ html {
 }
 body {
     background-color:darkgray;
-    background-image:url("http://img13.deviantart.net/06fe/i/2013/340/0/4/mario_world_by_orioto-d1onf3d.jpg");
+    background-image:url("mariobackground.jpg");
     background-size: cover;
 }
 .enemybox {
@@ -91,13 +91,13 @@ body {
     margin: 0;
 }
 .blockicon {
-    background-image: url("brick.png");
+    background-image: url("bricks.png");
     background-size:cover;
     font-size: 1.3em;
     border: none;
 }
 .blockicon:active {
-    background-image: url("brick.png");
+    background-image: url("bricks.png");
 }
 .grandtotalboxtext {
     display: block;
