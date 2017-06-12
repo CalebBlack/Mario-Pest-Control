@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row titlerow">
+            <div class="col-md-12">
+                <div class="box titlebox">
+                    <h1 class="title">Mario Pest Control</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row enemiesrow">
+            <div id="goombas" class="col-sm-4">
+                <div class="enemybox">
+                    <img class="sprite img-responsive" src="https://vignette1.wikia.nocookie.net/fantendo/images/d/d1/Goomba_NSMB2.png/revision/latest?cb=20120731143241">
+                    <h1 class="enemytitle">Goombas</h1>
+                    <p class="pricetitle">Price:
+                    </p>
+                    <div class="center-horizontal">
+                        <p class="pricetag"></p>
+                        <img src="https://vignette2.wikia.nocookie.net/nintendo/images/d/d9/Coin_Icon.png/revision/latest?cb=20120820191023&path-prefix=en" class="coinImage">
+                    </div>
+                    <p class="quantitytitle">Caught:
+                    </p>
+                    <p class="quantity"></p>
+                    <div class="center-horizontal">
+                        <button class="btn btn-primary blockicon increase">+</button>
+                        <button class="btn btn-primary blockicon decrease">-</button>
+                    </div>
+                    <p class="totaltitle">Total:</p>
+                    <div class="center-horizontal">
+                        <p class="total"></p>
+                        <img src="https://vignette2.wikia.nocookie.net/nintendo/images/d/d9/Coin_Icon.png/revision/latest?cb=20120820191023&path-prefix=en" class="coinImage">
+                    </div>
+                </div>
+            </div>
+            <div id="bombombs" class="col-sm-4">
+                <div class="enemybox">
+                    <img class="sprite img-responsive" src="https://vignette3.wikia.nocookie.net/fantendo/images/6/63/BobombNSMBU.png/revision/latest?cb=20121106225051">
+                    <h1 class="enemytitle">Bomb-ombs</h1>
+                    <p class="pricetitle">Price:
+                    </p>
+                    <div class="center-horizontal">
+                        <p class="pricetag"></p>
+                        <img src="https://vignette2.wikia.nocookie.net/nintendo/images/d/d9/Coin_Icon.png/revision/latest?cb=20120820191023&path-prefix=en" class="coinImage">
+                    </div>
+                    <p class="quantitytitle">Caught:
+                    </p>
+                    <p class="quantity"></p>
+                    <div class="center-horizontal">
+                        <button class="btn btn-primary blockicon increase">+</button>
+                        <button class="btn btn-primary blockicon decrease">-</button>
+                    </div>
+                    <p class="totaltitle">Total:</p>
+                    <div class="center-horizontal">
+                        <p class="total"></p>
+                        <img src="https://vignette2.wikia.nocookie.net/nintendo/images/d/d9/Coin_Icon.png/revision/latest?cb=20120820191023&path-prefix=en" class="coinImage">
+                    </div>
+                </div>
+            </div>
+            <div id="cheepcheeps" class="col-sm-4">
+                <div class="enemybox">
+                    <img class="sprite img-responsive" src="https://vignette2.wikia.nocookie.net/fantendo/images/9/9e/Cheep_Cheep_SM3DW.png/revision/latest?cb=20120128144132">
+                    <h1 class="enemytitle">Cheep-cheeps</h1>
+                    <p class="pricetitle">Price:</p>
+                    <div class="center-horizontal">
+                        <p class="pricetag"></p>
+                        <img src="https://vignette2.wikia.nocookie.net/nintendo/images/d/d9/Coin_Icon.png/revision/latest?cb=20120820191023&path-prefix=en" class="coinImage">
+                    </div>
+                    <p class="quantitytitle">Caught:
+                    </p>
+                    <p class="quantity"></p>
+                    <div class="center-horizontal">
+                        <button class="btn btn-primary blockicon increase">+</button>
+                        <button class="btn btn-primary blockicon decrease">-</button>
+                    </div>
+                    <p class="totaltitle">Total:</p>
+                    <div class="center-horizontal">
+                        <p class="total"></p>
+                        <div class="coinImage"></div>
+                        <img src="https://vignette2.wikia.nocookie.net/nintendo/images/d/d9/Coin_Icon.png/revision/latest?cb=20120820191023&path-prefix=en" class="coinImage">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 basicvertpadding">
+                <div class="box grandtotalbox translucentgray">
+                    <p class="grandtotalboxtext">Grand Total:</p>
+                    <p id="grandtotal"></p>
+                        <img src="https://vignette2.wikia.nocookie.net/nintendo/images/d/d9/Coin_Icon.png/revision/latest?cb=20120820191023&path-prefix=en" class="coinImage">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer myfooter">
+        <div class='container'>
+            <p>plumbing@mar.io</p>
+            <a href="http://www.mar.io/">www.mar.io</a>
+            <p>024 Mushroom Lane</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

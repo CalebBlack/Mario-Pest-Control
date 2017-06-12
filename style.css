@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family: 'SuperMario256';
+    src: url("SuperMario256.ttf");
+    /* TTF file for CSS3 browsers */
+}
+html {
+    min-height: 100%;
+}
+body {
+    background-color:darkgray;
+    background-image:url("http://img13.deviantart.net/06fe/i/2013/340/0/4/mario_world_by_orioto-d1onf3d.jpg");
+    background-size: cover;
+}
+.enemybox {
+    width: 100%;
+    height: auto;
+    background-color: rgba(105,105,105,0.5);
+    padding: 10px;
+}
+.translucentgray {
+    background-color: rgba(105,105,105,0.5);
+}
+.myfooter {
+    background-color: ghostwhite;
+}
+.box {
+    width: 100%;
+    height: auto;
+}
+.titlebox {
+    background-color:rgba(33,33,33,0);
+    
+}
+.title {
+    color: #c34e4e;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'SuperMario256';
+    background-color: rgba(0,0,0,0);
+}
+.footer-col {
+    padding: 0;
+}
+.footer-row {
+    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.footer p {
+    margin: 0;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.grandtotalbox * {
+    display: inline-block;
+    font-size: 2em;
+    color: azure;
+}
+.grandtotalbox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer a {
+    margin: 0;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.sprite {
+    display: block;
+    margin: 0 auto;
+}
+.enemytitle {
+    text-align: center;
+    color:ghostwhite;
+    font-family: 'SuperMario256';
+    color: darkgray;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+.enemybox p {
+    text-align: center;
+    font-size: 2em;
+    color: azure;
+    margin: 0;
+}
+.blockicon {
+    background-image: url("http://www.ecamp.co.nz/wp-content/uploads/2015/12/caneca-super-mario-tijolos-img1-9a43d21c0b7132f64314747755372388-1024-1024.png");
+    background-size:cover;
+    font-size: 1.3em;
+    border: none;
+}
+.blockicon:active {
+    background-image: url("http://www.ecamp.co.nz/wp-content/uploads/2015/12/caneca-super-mario-tijolos-img1-9a43d21c0b7132f64314747755372388-1024-1024.png");
+}
+.grandtotalboxtext {
+    display: block;
+}
+.coinImage {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.pricetag {
+    display: inline;
+    color: gold;
+}
+.center-horizontal {
+    text-align: center;
+}
+.center-horizontal * {
+    display: inline;
+    vertical-align:middle;
+}
+.total {
+    display: inline;
+    color: gold;
+}
+.footer-container {
+}
+.basicmargin {
+    margin: 10px;
+}
+.basicvertpadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
